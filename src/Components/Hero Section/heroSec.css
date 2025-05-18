@@ -1,0 +1,65 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.discribtion {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discribtion h1 {
+  font-size: 4rem;
+  padding-bottom: 5%;
+  background: linear-gradient(to right, #00439c, #eb4132);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.discribtion p {
+  font-size: var(--paragraphSize);
+  color: var(--primaryColor);
+  text-align: justify;
+}
+
+.heroContainer {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heroContainer .heroSec {
+  width: 33.33%;
+  line-height: 3;
+  font-size: 1rem;
+  color: var(--secondaryColor);
+  transition: all 0.5s ease;
+}
+
+.heroContainer .heroSec img {
+  height: 15rem;
+  filter: grayscale(90%);
+  transition: all 0.5s ease;
+}
+
+.heroContainer .heroSec:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+}
+
+.heroContainer .heroSec:hover {
+  color: #00439c;
+  font-size: 1.5rem;
+}

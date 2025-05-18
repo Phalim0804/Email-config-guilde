@@ -1,0 +1,13 @@
+.outlook {
+  background: radial-gradient(
+      circle at center,
+      rgba(255, 255, 255, 0.26) 100%,
+      rgba(255, 255, 255, 0.36) 60%,
+      rgba(255, 255, 255, 0.36) 40%,
+      rgba(255, 255, 255, 0.834) 0%
+    ),
+    url("../../../assets/Outlook/th.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}

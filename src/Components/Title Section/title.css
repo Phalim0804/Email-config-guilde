@@ -1,0 +1,16 @@
+.title {
+  width: 100%;
+  text-align: justify;
+  height: 20vh;
+}
+
+h3 {
+  font-size: var(--titleSize);
+  text-decoration: underline;
+  color: transparent;
+  background: linear-gradient(to bottom, #00439c, #eb4132);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 25px;
+}

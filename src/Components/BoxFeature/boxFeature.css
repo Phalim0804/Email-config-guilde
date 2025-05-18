@@ -1,0 +1,52 @@
+.feature-grid-wrapper {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(234, 232, 232, 0.2);
+  width: 30%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: justify;
+}
+
+.feature-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.feature-heading {
+  font-size: 2rem;
+  color: #0078d4;
+}
+
+.feature-description {
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.feature-list {
+  margin-top: 0.75rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.5rem;
+}

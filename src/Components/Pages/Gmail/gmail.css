@@ -1,0 +1,14 @@
+.gmail {
+  background: 
+  radial-gradient(
+      circle at center,
+      rgba(71, 68, 68, 0.1) 100%,
+      #00000099 60%,
+      rgba(0, 0, 0, 0.6) 40%,
+      rgba(255, 255, 255, 0.074) 0%
+    ),
+    url("../../../assets/Gmail/th.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
